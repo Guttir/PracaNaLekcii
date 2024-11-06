@@ -34,7 +34,7 @@ class Dom{
 		wlasciciel = _wlasciciel;
 	}
 	//inf
-	void showInf() const {
+	virtual void showInf() const {
 		std::cout<<"Cena: "<<cena<<" Wymiar: "<<wymiar<<" Wlasciciel: "<<wlasciceil<<std::endl;
 	}
 };
