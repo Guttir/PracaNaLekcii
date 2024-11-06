@@ -78,6 +78,11 @@ class DomJed: public Dom{
 		void setOgrod(bool _ogrod){
 			ogrod = _ogrod;
 		}
+		//inf
+		void showInf() const override{
+			Dom::showInf();
+			std::cout<<"Ogrod: "<<ogrod<<std::endl;
+		}
 };
 
 int main(){
